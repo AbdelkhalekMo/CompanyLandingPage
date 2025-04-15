@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة هبوط عبدالخالق</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- البار العلوي -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="شعار الموقع">
+                <h1>شركة التميز (عبدالخالق محمد)</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                    <li><a href="#features">المميزات</a></li>
+                    <li><a href="#location">مواعيد العمل</a></li>
+                    <li><a href="#news">أحدث الأخبار</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- البنر الإعلاني -->
+    <section id="home" class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>أفضل الحلول لأعمالك</h2>
+                <p>نقدم لك خدمات متكاملة وحلول مبتكرة لتطوير أعمالك ومساعدتك على النجاح</p>
+                <a href="tel:+201234567890" class="cta-button">تواصل معنا الآن</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- نموذج الحجز والاستفسار -->
+    <section id="contact" class="contact-form">
+        <div class="container">
+            <div class="section-header">
+                <h2>احجز موعدًا أو أرسل استفسارًا</h2>
+                <p>يمكنك ملء النموذج أدناه للتواصل معنا وسنرد عليك في أقرب وقت ممكن</p>
+            </div>
+            <form id="appointment-form" action="https://formsubmit.co/boody20129434@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">رقم الهاتف</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">الخدمة المطلوبة</label>
+                    <select id="service" name="service">
+                        <option value="consultation">استشارة</option>
+                        <option value="project">مشروع جديد</option>
+                        <option value="support">دعم فني</option>
+                        <option value="other">أخرى</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">تاريخ الموعد المفضل</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div class="form-group">
+                    <label for="message">الرسالة أو الاستفسار</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="submit-button">إرسال الطلب</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- المزايا والخدمات -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>ما الذي يميزنا؟</h2>
+                <p>نقدم لك مجموعة متنوعة من المزايا والخدمات المميزة</p>
+            </div>
+            <div class="features-container">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>تطوير الأعمال</h3>
+                    <p>نساعدك على تطوير أعمالك وزيادة أرباحك من خلال استراتيجيات فعالة</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>حلول تقنية</h3>
+                    <p>نوفر أحدث الحلول التقنية المناسبة لمشروعك واحتياجاتك الخاصة</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>فريق محترف</h3>
+                    <p>يعمل معك فريق من الخبراء المتخصصين في مختلف المجالات</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>دعم مستمر</h3>
+                    <p>نقدم دعمًا فنيًا مستمرًا لضمان استمرارية عمل مشروعك بكفاءة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- مقر العمل وأوقاته -->
+    <section class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2>مقر العمل وأوقات الدوام</h2>
+                <p>يمكنك زيارتنا خلال أوقات الدوام الرسمي</p>
+            </div>
+            <div class="location-info">
+                <div class="office-hours">
+                    <h3>أوقات العمل</h3>
+                    <ul>
+                        <li><span>الأحد - الخميس:</span> 9:00 صباحًا - 5:00 مساءً</li>
+                        <li><span>الجمعة:</span> 9:00 صباحًا - 12:00 ظهرًا</li>
+                        <li><span>السبت:</span> مغلق</li>
+                    </ul>
+                    <h3>معلومات الاتصال</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> +20 123 456 7890</li>
+                        <li><i class="fas fa-envelope"></i> info@example.com</li>
+                    </ul>
+                </div>
+                <div class="office-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.902767167892!2d31.224951700000002!3d29.9556596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDU3JzIwLjQiTiAzMcKwMTMnMjkuOCJF!5e0!3m2!1sen!2seg!4v1650000000000!5m2!1sen!2seg" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الأخبار والمقالات -->
+    <section id="news" class="news">
+        <div class="container">
+            <div class="section-header">
+                <h2>أحدث الأخبار والمقالات</h2>
+                <p>تابع آخر التطورات والمقالات المتعلقة بمجال عملنا</p>
+            </div>
+            <div class="news-container">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/news1.jpg" alt="خبر 1">
+                    </div>
+                    <div class="news-content">
+                        <span class="date">15 أبريل 2025</span>
+                        <h3>إطلاق خدمة جديدة للعملاء</h3>
+                        <p>أطلقنا مؤخرًا خدمة جديدة تهدف إلى تسهيل تجربة العملاء وتحسين الأداء...</p>
+                        <a href="#" class="read-more">قراءة المزيد</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/news2.jpg" alt="خبر 2">
+                    </div>
+                    <div class="news-content">
+                        <span class="date">10 أبريل 2025</span>
+                        <h3>شراكة استراتيجية جديدة</h3>
+                        <p>أعلنا مؤخرًا عن شراكة استراتيجية مع شركة رائدة في المجال لتقديم أفضل الخدمات...</p>
+                        <a href="#" class="read-more">قراءة المزيد</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/news3.jpg" alt="خبر 3">
+                    </div>
+                    <div class="news-content">
+                        <span class="date">5 أبريل 2025</span>
+                        <h3>افتتاح فرع جديد</h3>
+                        <p>تم افتتاح فرع جديد للشركة في مدينة الإسكندرية لتلبية احتياجات العملاء في المنطقة...</p>
+                        <a href="#" class="read-more">قراءة المزيد</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- البار السفلي -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="about-company">
+                    <h3>عن الشركة</h3>
+                    <p>شركة التميز هي شركة رائدة في مجال تقديم الحلول المتكاملة للأعمال والمشاريع. تأسست الشركة عام 2010 وتهدف إلى تقديم خدمات احترافية عالية الجودة لعملائها في مختلف القطاعات.</p>
+                </div>
+                <div class="quick-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#features">المميزات</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#news">الأخبار</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="contact-us">
+                    <h3>تواصل معنا</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> شارع التحرير، القاهرة، مصر</li>
+                        <li><i class="fas fa-phone"></i> +20 123 456 7890</li>
+                        <li><i class="fas fa-envelope"></i> info@example.com</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 شركة التميز. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
